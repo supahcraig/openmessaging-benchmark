@@ -21,5 +21,5 @@ Configuration:
 # lower this down to warn or info as necessary
     Logger:
       - name: org.apache.kafka
-        level: error
+        level: debug
         AppenderRef: Console
