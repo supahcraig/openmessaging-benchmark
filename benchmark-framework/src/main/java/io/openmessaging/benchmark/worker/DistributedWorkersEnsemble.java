@@ -50,8 +50,8 @@ import static org.asynchttpclient.Dsl.config;
 
 public class DistributedWorkersEnsemble implements Worker {
 
-    private final static int REQUEST_TIMEOUT_MS = 300_000;
-    private final static int READ_TIMEOUT_MS = 300_000;
+    private final static int REQUEST_TIMEOUT_MS = 900_000;
+    private final static int READ_TIMEOUT_MS = 900_000;
     private final List<String> workers;
     private final List<String> producerWorkers;
     private final List<String> consumerWorkers;
